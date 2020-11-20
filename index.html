@@ -1,0 +1,144 @@
+<html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/stil.css">
+        <link rel="stylesheet" href="less/less.less">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="bootstrap-4.3.1-dist/js/bootstrap.min.js">
+        <title>pocetna</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <div  class="header">
+
+
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo">
+
+                </div>
+                
+                <div class="topnav" id="myTopnav">
+                    
+                    <a href="pocetna.html"> Pocetna</a>
+                    <a href="o nama.html">O nama</a>
+                    <a href="kontakt.html">Kontakt</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                
+                </div>
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "topnav";
+                        }
+                    }
+                </script>
+                <h1>Ako mozes da zamislis, mozes i da ostvaris</h1>
+                </div>
+                
+          
+            <div class="glavniSadrzaj">
+                <div class="levi">
+                    <h2>Nagradni program putovanja</h2>
+                    <h3>Putuj gde god zelis </h3>
+                    <img class="newsPic" src="images/newsPic.jpg" alt="">
+                    <p>Otkljucaj biznis tim 5000 i ucestvuj u programu putovanja</p>
+                    <h2>Auto projekat</h2>
+                    <h3>Osvoji auto po zelji</h3>
+                    <img class="newsPic" src="images/newsPic2.jpg" alt="autoProjekat">
+                    <p>Organizuj tim, napravite 20000 bodova obim i osvoji auto po zelji</p>
+                </div>
+                <div class="sredina">
+                    <div class="proizvod">
+                        <img class="slikaProizvoda" src="images/BeautySense.png" alt="">
+                        <h2>Beauty Sense</h2>
+                        <h3>11500rsd</h3>
+                        <h3><input type="number" placeholder="Unesite kolicinu"></h3>
+                        <h3><button type="button">Dodaj u korpu</button></h3>
+                    </div>
+                    <div style="margin-left: 50%;" class="proizvod">
+                        <img class="slikaProizvoda" src="images/Komplet BEAUTY Box.png" alt="">
+                        <h2>Beauty Box</h2>
+                        <h3>2180rsd</h3>
+                        <h3><input type="number" placeholder="Unesite kolicinu"></h3>
+                        <h3><button type="button">Dodaj u korpu</button></h3>
+                    </div>
+                    <div style="margin-top: 30%;" class="proizvod">
+                        <img class="slikaProizvoda" src="images/IMMUNO Box.png" alt="">
+                        <h2>Immuno Box</h2>
+                        <h3>2740rsd</h3>
+                        <h3><input type="number" placeholder="Unesite kolicinu"></h3>
+                        <h3><button type="button">Dodaj u korpu</button></h3>
+                    </div>
+                    <div style="margin-top: 30%; margin-left: 50%;" class="proizvod">
+                        <img class="slikaProizvoda" src="images/Komplet PULSE Box .png" alt="">
+                        <h2>Pulse Box</h2>
+                        <h3>2589rsd</h3>
+                        <h3><input type="number" placeholder="Unesite kolicinu"></h3>
+                        <h3><button type="button">Dodaj u korpu</button></h3>
+                    </div>
+                    <div style="margin-top: 60%; margin-left: 50%;" class="proizvod">
+                        <img class="slikaProizvoda" src="images/Komplet VISION Box.png" alt="">
+                        <h2>Vision Box</h2>
+                        <h3>4130rsd</h3>
+                        <h3><input type="number" placeholder="Unesite kolicinu"></h3>
+                        <h3><button type="button">Dodaj u korpu</button></h3>
+                    </div>
+                    <div style="margin-top: 60%;" class="proizvod">
+                        <img class="slikaProizvoda" src="images/Komplet LITE STEP Box.png" alt="">
+                        <h2>Lite Step Box</h2>
+                        <h3>3190rsd</h3>
+                        <h3><input type="number" placeholder="Unesite kolicinu"></h3>
+                        <h3><button type="button">Dodaj u korpu</button></h3>
+                    </div>
+                    
+                </div>
+                <div class="desni">
+                    <form action="POST">
+                        <label for="ime">Ime:</label>
+                        <input type="text" placeholder="Ime"><br>
+                        <label for="prezime">Prezime:</label>
+                        <input type="text" placeholder="Prezime"> <br>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Email">
+                        <label for="password">Lozinka</label>
+                        <input type="password" placeholder="password">
+                        <input type="date" placeholder="datum rodjenja"><br>
+                        <input type="radio" value="male">
+                        <label for="male">Musko</label><br>
+                        <input type="radio" value="female">
+                        <label for="female">Zensko</label><br>
+                        <label for="checkbox">Da li jedete brzu hranu</label>
+                        <input type="checkbox"><br>
+                        <label for="">Da li redovno trenirate</label>
+                        <input type="checkbox"> <br>
+                        <label for="">Koju vrstu treninga najvise upraznjavate?</label> <br> <br>
+                        <select name="program vezbanja">
+                            <option value="kondicioni">Kondicioni</option>
+                            <option value="koardio">Kardio</option>
+                            <option value="izdrzljivosti">izdrzljivosti</option>
+                        </select> <br> <br>
+                        <label for="time">U koliko sati se obicno budite?</label> <br>
+                        <input type="time">
+                    </form>
+                </div>
+                <div class="foter">
+                    <footer>
+                        <p>Dimitrije Rakic S01/18</p>
+                        <p>Adresa: Sumatovacka 1</p>
+                        <p><a href="mailto: drakic118s@raf.rs">drakic118s@raf.rs</a></p>
+                        &copy;Dimitrije Rakic
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+</html>
